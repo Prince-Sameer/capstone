@@ -1,0 +1,171 @@
+html,body{
+  height:2500px;
+}
+.abtathor, .emo {
+  display:none
+}
+body{
+  background-color: lightpink;
+}
+.head img {
+  display:block;
+  margin:0 auto;
+}
+iframe{
+  width:50%;
+  height:50%;
+  display:block;
+  float:left;
+}
+aside{
+  width:30%;
+  height:vh;
+  float:left;
+}
+.container{
+  display:flex;
+  flex-direction: column;
+}
+
+aside img {
+  width:10em;
+  border-radius:200px;
+  display: inline-block;
+  padding-right:2px;
+  padding-bottom:1px;
+  padding-top: 3px;
+}
+aside p{
+  float:left;
+  padding-right: 3px;
+  padding-bottom:10px;
+  padding-top: 4px;
+  margin-bottom: 6px;
+}
+div a{
+  display: block;
+  padding:40px 40px 40px 40px;
+  margin-left: 10px;
+  border-style: solid;
+  margin-bottom: 10px;
+  width:10rem;
+  text-decoration: none;
+  color: gold;
+  background-color:rgb(123,63,0);
+  text-align: center;
+  border-image: url("http://clipart-library.com/images/yikAg4b6T.jpg") 30 round;
+}
+div a:hover{
+  border-radius:100px;
+  transition-delay:0.2s;
+  color:white;
+  background-color:black;
+  width:vw;
+}
+.author{
+  display: block;
+  position: absolute;
+  top:1500px;
+  left:400px;
+  border-style: inset;
+}
+.container2{
+ float:left;
+}
+.image
+{
+  width:30%;
+  height:30%;
+}
+.image img{
+  width:100%;
+  animation-name:tiny;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes tiny {
+  from {width:100%;} to
+  {width:30%;}
+  from {float:left;} to
+  {float:right;}
+}
+.trailer{
+  position: absolute;
+  top: 1500px;
+  left:950px;
+  width:35rem;
+  height:20rem;
+}
+.lsa{
+  position:absolute;
+  right:0;
+  width:300px;
+  top:800px;
+}
+.boa {
+  position:absolute;
+  left:1100px;
+  width:200px;
+  top:998px;
+}
+@media screen and (max-width:760px){
+  html{
+    height:3500px;
+  }
+  body{
+
+  height:3500px;
+  background-color:skyblue;
+  }
+  .container, .author, .trailer, .lsa, .boa
+  {
+  display:none;
+  }
+  iframe{
+    width:100%;
+    height:50%;
+  }
+  .container2{
+    flex-direction: row;
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  div a{
+    display: block;
+    padding: 0px 5px 0px 5px;
+    margin: 0px 50px 0px 0px;
+  }
+  .stg{
+    margin:0px 300px 0px 100px;
+  }
+  .abtathor{
+    display:block;
+    width:100%;
+    height:50%;
+  }
+.image {
+  width:20%;
+  height:20%;
+  float:right;
+}
+.emo{
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  float:left;
+  background-color:rgb(52, 110, 228);
+}
+.tooltip img{
+  display:inline-block;
+  width:100px;
+  border-radius: 100px;
+  margin-right: 10px;
+}
+
+@keyframes tiny {
+  display:none;
+
+}
+
+}
